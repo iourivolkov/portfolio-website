@@ -8,12 +8,12 @@ const Navigation = () => {
           <b>IOURI</b>VOLKOV
         </li>
         <div className="middle">
-          <li className="about">about</li>
-          <li className="portfolio">portfolio</li>
-          <li className="photo">photo</li>
+          <li className="about">ABOUT</li>
+          <li className="portfolio">PORTFOLIO</li>
+          <li className="photo">PHOTO</li>
         </div>
 
-        <li className="contact">contact me</li>
+        <li className="contact">CONTACT ME</li>
       </ul>
     </nav>
   );

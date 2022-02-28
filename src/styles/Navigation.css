@@ -13,13 +13,9 @@ li {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-  margin-top: 20px;
+  margin-top: 30px;
   cursor: pointer;
-}
-
-.middle,
-.contact {
-  font-weight: 300;
+  font-size: 14px;
 }
 
 .middle {
@@ -33,20 +29,12 @@ li {
   transition: all 0.3s ease 0s;
 }
 
-/* .middle:hover {
-  text-decoration: underline white 4px;
-}
-
-.contact:hover {
-  text-decoration: underline white 4px;
-} */
-
 .about {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 .portfolio {
-  padding-right: 15px;
+  padding-right: 25px;
 }
 
 .about:hover {
