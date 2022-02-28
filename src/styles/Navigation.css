@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: 0;
+  box-sizing: border-box;
 }
 
 li {
@@ -13,24 +13,54 @@ li {
   flex-direction: row;
   justify-content: space-around;
   list-style-type: none;
-  margin-top: 10px;
+  margin-top: 20px;
   cursor: pointer;
 }
 
-.middle-nav {
-  display: flex;
-  flex-direction: row;
-}
-
-.middle-nav,
+.middle,
 .contact {
   font-weight: 300;
 }
 
-.middle-nav:hover {
+.middle {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+
+.middle,
+.contact li a {
+  transition: all 0.3s ease 0s;
+}
+
+/* .middle:hover {
   text-decoration: underline white 4px;
 }
 
 .contact:hover {
+  text-decoration: underline white 4px;
+} */
+
+.about {
+  padding-right: 15px;
+}
+
+.portfolio {
+  padding-right: 15px;
+}
+
+.about:hover {
+  text-decoration: underline white 4px;
+}
+
+.contact:hover {
+  text-decoration: underline white 4px;
+}
+
+.photo:hover {
+  text-decoration: underline white 4px;
+}
+
+.portfolio:hover {
   text-decoration: underline white 4px;
 }

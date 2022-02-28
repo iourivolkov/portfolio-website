@@ -2,32 +2,20 @@ import "../styles/Navigation.css";
 
 const Navigation = () => {
   return (
-    <div>
+    <nav>
       <ul className="navbar">
-        <li className="logo">
-          <a>
-            <b>IOURI</b>VOLKOV
-          </a>
+        <li>
+          <b>IOURI</b>VOLKOV
         </li>
-        <div className="middle-nav">
-          <li>
-            <a>about</a>
-          </li>
-
-          <li>
-            <a>portfolio</a>
-          </li>
-
-          <li>
-            <a>photo</a>
-          </li>
+        <div className="middle">
+          <li className="about">about</li>
+          <li className="portfolio">portfolio</li>
+          <li className="photo">photo</li>
         </div>
 
-        <li className="contact">
-          <a>contact me</a>
-        </li>
+        <li className="contact">contact me</li>
       </ul>
-    </div>
+    </nav>
   );
 };
 
