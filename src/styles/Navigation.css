@@ -16,6 +16,7 @@ li {
   margin-top: 30px;
   cursor: pointer;
   font-size: 14px;
+  color: rgb(242, 242, 242);
 }
 
 .middle {
@@ -40,27 +41,27 @@ li {
 .about:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: white;
+  text-decoration-color: rgb(255, 255, 44);
   margin-top: 5px;
 }
 
 .contact:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: white;
+  text-decoration-color: rgb(255, 255, 44);
   margin-top: 5px;
 }
 
 .photo:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: white;
+  text-decoration-color: rgb(255, 255, 44);
   margin-top: 5px;
 }
 
 .portfolio:hover {
   text-decoration-line: underline;
   text-decoration-style: wavy;
-  text-decoration-color: white;
+  text-decoration-color: rgb(255, 255, 44);
   margin-top: 5px;
 }
