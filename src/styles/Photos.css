@@ -14,3 +14,10 @@
   width: 400px;
   height: 500px;
 }
+
+.photo-collage {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 40px;
+}

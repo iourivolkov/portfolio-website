@@ -3,6 +3,7 @@ import Navigation from "../src/components/Navigation";
 import LandingPage from "../src/components/LandingPage";
 import Projects from "./components/Projects";
 import Photos from "./components/Photos";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <LandingPage />
       <Projects />
       <Photos />
+      <Footer />
     </div>
   );
 }
