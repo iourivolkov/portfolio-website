@@ -1,5 +1,6 @@
 import "../styles/Projects.css";
-import ProjectItem from "./ProjectItem";
+import ProjectGrid from "./ProjectGrid";
+
 
 const work = [
   {
@@ -38,10 +39,10 @@ const work = [
 
 const Projects = () => {
   return (
-    <article>
-      <h1>PROJECTS</h1>
-      <ProjectItem />
-    </article>
+    <div className="container">
+      <h1 className="recent-work">RECENT WORK</h1>
+      <ProjectGrid />
+    </div>
   );
 };
 

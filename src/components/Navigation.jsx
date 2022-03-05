@@ -9,7 +9,7 @@ const Navigation = () => {
         </li>
         <div className="middle">
           <li className="about">ABOUT</li>
-          <li className="portfolio">PORTFOLIO</li>
+          <li className="portfolio">WORK</li>
           <li className="photo">PHOTO</li>
         </div>
 

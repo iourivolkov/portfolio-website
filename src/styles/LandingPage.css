@@ -2,6 +2,16 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  background-color: #f9e000;
+}
+
+.container {
+  height: 922px;
+  width: 1182px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+ 
 }
 
 .main-page-title {
