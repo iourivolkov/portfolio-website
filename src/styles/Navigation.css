@@ -38,17 +38,29 @@ li {
 }
 
 .about:hover {
-  text-decoration: underline white 4px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: white;
+  margin-top: 5px;
 }
 
 .contact:hover {
-  text-decoration: underline white 4px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: white;
+  margin-top: 5px;
 }
 
 .photo:hover {
-  text-decoration: underline white 4px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: white;
+  margin-top: 5px;
 }
 
 .portfolio:hover {
-  text-decoration: underline white 4px;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: white;
+  margin-top: 5px;
 }

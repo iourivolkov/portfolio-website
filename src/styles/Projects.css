@@ -9,10 +9,14 @@
   font-size: 70px;
 }
 
-.past-prject-links:hover {
-  
+.past-project-links:hover {
+  text-decoration-line: underline;
+  text-decoration-color: white;
+  cursor: pointer;
 
 }
+
+
 
 h1 {
   font-family: "Poppins", sans-serif;
@@ -23,6 +27,8 @@ h1 {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
 }
+
+
 
 
 
