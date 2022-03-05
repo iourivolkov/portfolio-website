@@ -1,47 +1,19 @@
 import "../styles/Projects.css";
-import ProjectGrid from "./ProjectGrid";
 
 
-const work = [
-  {
-    img: "url",
-    name: "Secret Lurry Society",
-    description:
-      "Lighthouse Labs' flagship DApp (decentralized application) - consisting of an NFT collection, minting website, and LURRY token IDO (initial dex offering). The Floatie Lurry NFT grants exclusive access to a mentorship discord channel and acts as an on-ramp to blockchain technology for first-time users. The website is pinned to IPFS (InterPlanetary File System).",
-    technology:
-      "React, JQuery, Hardhat, Truffle, Ganache, Web3.js, Ethers.js, OpenZeppelin, IPFS (Pinata), Alchemy, ENS",
-    links: "https://github.com/iourivolkov/Lurry-Contract-Website",
-  },
-  {
-    img: "url",
-    name: "LightMart",
-    description: "A buy and sell NFT (non-fungible token) marketplace.",
-    technology: "JS, HTML, CSS, Bootstrap, PostgreSQL, Express",
-    links: "url",
-  },
-  {
-    img: "https://github.com/iourivolkov/tweeter-app/blob/master/docs/alltweets.png?raw=true",
-    name: "Tweeter",
-    description:
-      "A Single Page App (SPA) Twitter clone - focused on practicing front-end development skills.",
-    technology: "JS, JQuery, AJAX, HTML, CSS",
-    links: "https://github.com/iourivolkov/tweeter-app",
-  },
-  {
-    img: "https://github.com/iourivolkov/tinyapp/blob/master/docs/urls-page.png?raw=true",
-    name: "TinyApp",
-    description:
-      "TinyApp is a full-stack web app built with Node and Express that allows users to shorten long URLs (a la bit.ly). Cookies are used to authenticate users and their data is persisted",
-    technology: "JS, Node, Express, HTML, CSS",
-    links: "https://github.com/iourivolkov/tinyapp",
-  },
-];
+const Projects = ({img, name, description, technology, links}) => {
 
-const Projects = () => {
   return (
     <div className="container">
-      <h1 className="recent-work">RECENT WORK</h1>
-      <ProjectGrid />
+      <h1 className="recent-work">BROWSE PROJECTS</h1>
+      <div className="past-project-links">
+        <h2>Secret Lurry Society</h2>
+        <h2>Scheduler</h2>
+        <h2>Light Mart</h2>
+        <h2>Tweeter</h2>
+        <h2>Tiny App</h2>
+      </div>
+      
     </div>
   );
 };
