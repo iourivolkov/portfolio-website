@@ -5,7 +5,12 @@
 }
 
 .photos-title {
-  color:  rgb(242, 242, 242);
-  margin-top: 40px;
+  color: rgb(242, 242, 242);
+  margin-top: 60px;
   font-size: 14px;
+}
+
+.image {
+  width: 400px;
+  height: 500px;
 }
