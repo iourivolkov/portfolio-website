@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.photos-title {
+  color:  rgb(242, 242, 242);
+  margin-top: 40px;
+  font-size: 14px;
+}

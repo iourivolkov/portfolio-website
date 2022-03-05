@@ -2,6 +2,7 @@ import "./App.css";
 import Navigation from "../src/components/Navigation";
 import LandingPage from "../src/components/LandingPage";
 import Projects from "./components/Projects";
+import Photos from "./components/Photos";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Navigation />
       <LandingPage />
       <Projects />
+      <Photos />
     </div>
   );
 }
