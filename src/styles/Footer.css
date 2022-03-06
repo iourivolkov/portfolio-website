@@ -1,4 +1,16 @@
 .footer {
-  margin-top: 60px;
+  margin-top: 80px;
+  font-family: "Poppins", sans-serif;
   color: white;
+  align-items: center;
+
+  padding-bottom: 20px;
+}
+
+.footer-social-icons-right {
+  margin-left: 400px;
+}
+
+.footer-contact-info-left {
+  margin-right: 100px;
 }

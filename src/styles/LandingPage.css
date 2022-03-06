@@ -9,9 +9,7 @@
   height: 100%;
   width: 100%;
   padding-top: 200px;
- 
 }
-
 
 .main-page-title {
   font-family: "Poppins", sans-serif;
@@ -40,4 +38,3 @@
     transform: translateY(-15%);
   }
 }
-

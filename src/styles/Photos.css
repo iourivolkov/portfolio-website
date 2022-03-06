@@ -13,6 +13,8 @@
 .image {
   width: 400px;
   height: 500px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .photo-collage {
