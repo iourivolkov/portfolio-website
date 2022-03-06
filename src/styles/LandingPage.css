@@ -24,6 +24,7 @@
   opacity: 90%;
   animation: updown 2s ease infinite;
   color: white;
+  margin-top: 400px;
 }
 
 @keyframes updown {

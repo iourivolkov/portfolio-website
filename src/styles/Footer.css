@@ -3,14 +3,32 @@
   font-family: "Poppins", sans-serif;
   color: white;
   align-items: center;
-
-  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  font-weight: 300;
+  padding-bottom: 25px;
 }
 
 .footer-social-icons-right {
   margin-left: 400px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
 }
 
 .footer-contact-info-left {
   margin-right: 100px;
+  font-family: "Poppins", sans-serif;
+}
+
+.linkedin {
+  padding-right: 20px;
+}
+
+.github {
+  padding-right: 20px;
+}
+
+.photos {
 }
