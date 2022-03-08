@@ -19,10 +19,20 @@ li {
   color: rgb(242, 242, 242);
 }
 
+.navbar:visited {
+  text-decoration: none;
+  color: rgb(242, 242, 242);
+}
+
 .middle {
   display: flex;
   justify-content: space-evenly;
   flex-direction: row;
+}
+
+.text-link {
+  color: inherit;
+  text-decoration: inherit;
 }
 
 .middle,

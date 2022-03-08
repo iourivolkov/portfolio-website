@@ -5,25 +5,24 @@ const Navigation = () => {
   return (
     <nav>
       <ul className="navbar">
-        <Link to="/">
+        <Link className="text-link" to="/">
           <li>
             <b>IOURI</b>VOLKOV
           </li>
         </Link>
         <div className="middle">
-          <Link to="/about">
+          <Link className="text-link" to="/about">
             <li className="about">ABOUT</li>
           </Link>
-          <Link to="/work">
+          <Link className="text-link" to="/work">
             <li className="portfolio">WORK</li>
           </Link>
-          <Link to="/photo">
+          <Link className="text-link" to="/photo">
             <li className="photo">PHOTO</li>
           </Link>
         </div>
 
-        <Link to="/contact">
-          {" "}
+        <Link className="text-link" to="/contact">
           <li className="contact">CONTACT ME</li>
         </Link>
       </ul>
