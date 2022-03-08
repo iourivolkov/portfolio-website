@@ -3,15 +3,29 @@ import Navigation from "../src/components/Navigation";
 import LandingPage from "../src/components/LandingPage";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
+import Photos from "./components/Photos";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (
-    <div className="App">
+    <Router>
       <Navigation />
-      <LandingPage />
-      <Projects />
-      <Footer />
-    </div>
+      <div className="App">
+        <Switch>
+          <Route exact path="/">
+            <LandingPage />
+          </Route>
+          <Route path="/work">
+            <Projects />
+          </Route>
+          <Route path="/photos">
+            <Photos />
+          </Route>
+        </Switch>
+
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
