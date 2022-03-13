@@ -5,26 +5,19 @@ const Navigation = () => {
   return (
     <nav>
       <ul className="navbar">
-        <Link className="text-link" to="/">
-          <li>
-            <b>IOURI</b>VOLKOV
-          </li>
-        </Link>
+        <li>
+          <b>IOURI</b>VOLKOV
+        </li>
+
         <div className="middle">
-          <Link className="text-link" to="/about">
-            <li className="about">ABOUT</li>
-          </Link>
-          <Link className="text-link" to="/work">
-            <li className="portfolio">WORK</li>
-          </Link>
-          <Link className="text-link" to="/photo">
-            <li className="photo">PHOTO</li>
-          </Link>
+          <li className="about">ABOUT</li>
+
+          <li className="portfolio">WORK</li>
+
+          <li className="photo">PHOTO</li>
         </div>
 
-        <Link className="text-link" to="/contact">
-          <li className="contact">CONTACT ME</li>
-        </Link>
+        <li className="contact">CONTACT ME</li>
       </ul>
     </nav>
   );

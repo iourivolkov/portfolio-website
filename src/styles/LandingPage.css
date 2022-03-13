@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0b0c59;
+  background-color: #232568;
 }
 
 .container {
@@ -24,7 +24,7 @@
   opacity: 90%;
   animation: updown 2s ease infinite;
   color: white;
-  margin-top: 400px;
+  margin-top: 500px;
 }
 
 @keyframes updown {

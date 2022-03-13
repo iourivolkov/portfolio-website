@@ -1,6 +1,11 @@
 import React from "react";
 import "../styles/Footer.css";
-import { StyledWrapper } from "../components/styled/Footer.styled.js";
+import styled from "styled-components";
+
+const StyledWrapper = styled.div`
+  background-color: white;
+  color: black;
+`;
 
 const Footer = () => {
   return (
