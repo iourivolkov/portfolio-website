@@ -24,18 +24,17 @@
   opacity: 90%;
   animation: updown 2s ease infinite;
   color: white;
-  margin-top: 500px;
 }
 
 @keyframes updown {
   0% {
-    transform: translateY(-15%);
+    transform: translateY(-10%);
   }
 
   50% {
-    transform: translateY(15%);
+    transform: translateY(10%);
   }
   100% {
-    transform: translateY(-15%);
+    transform: translateY(-10%);
   }
 }

@@ -1,0 +1,33 @@
+.about-heading {
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  background-color: transparent;
+}
+
+.about-desc {
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  color: black;
+  text-align: start;
+  margin: 30px 90px;
+
+  background-color: transparent;
+}
+
+.about-card {
+  background-color: white;
+  height: 100%;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+i,
+b,
+u {
+  text-decoration: none;
+  background-color: transparent;
+}
+
+/* #232568 */
