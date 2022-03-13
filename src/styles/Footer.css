@@ -12,9 +12,6 @@
 
 .footer-social-icons-right {
   margin-left: 400px;
-  display: flex;
-  justify-content: space-between;
-  flex-direction: row;
 }
 
 .footer-contact-info-left {
