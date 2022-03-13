@@ -1,6 +1,23 @@
 import "../styles/Navigation.css";
 import { Link } from "react-router-dom";
 
+import styled from "styled-components";
+
+const ContactBtn = styled.button`
+  border: solid black 2px;
+  width: 120px;
+  height: 30px;
+  text-align: center;
+  background-color: transparent;
+  font-family: "Poppins", sans-serif;
+  cursor: pointer;
+  &:hover {
+    background-color: rgb(210, 50, 22);
+    color: white;
+    border: none;
+  }
+`;
+
 const Navigation = () => {
   return (
     <nav>
@@ -14,8 +31,8 @@ const Navigation = () => {
 
           <li className="portfolio">WORK</li>
         </div>
-
-        <li className="contact">CONTACT ME</li>
+        <ContactBtn>CONTACT ME</ContactBtn>
+        {/* <li className="contact">CONTACT ME</li> */}
       </ul>
     </nav>
   );

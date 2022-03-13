@@ -7,7 +7,7 @@
   justify-content: space-around;
   flex-direction: row;
   font-weight: 300;
-  padding-bottom: 25px;
+  padding-bottom: 40px;
 }
 
 .footer-social-icons-right {
@@ -19,13 +19,10 @@
   font-family: "Poppins", sans-serif;
 }
 
-.linkedin {
-  padding-right: 20px;
+.linkedIn {
+  margin-right: 10px;
 }
 
 .github {
-  padding-right: 20px;
-}
-
-.photos {
+  margin-right: 10px;
 }
