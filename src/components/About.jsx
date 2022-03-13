@@ -10,7 +10,7 @@ const About = () => {
             "Iouri is a <b>Full-Stack Web Developer</b> and self-taught
             <b> UX designer </b>
             with a passion for creating intuitive user experiences and
-            introducing new users to <b>blockchain technology</b>."
+            introducing new users to <b>Web 3.0</b>."
           </i>
         </p>
       </div>
