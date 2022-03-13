@@ -33,12 +33,23 @@ function App() {
     scene.add(cube);
     camera.position.z = 5;
 
+    const white = new THREE.Color(0xffffff);
+    scene.background = white;
+
     const animate = function () {
       requestAnimationFrame(animate);
       cube.rotation.x += 0.01;
       cube.rotation.y += 0.01;
       renderer.render(scene, camera);
     };
+
+    let onWindowResize = () => {
+      camera.aspect = window.innerWidth / window.innerHeight;
+      camera.updateProjectionMatrix();
+      renderer.setSize(window.innerWidth, window.innerHeight);
+    };
+
+    window.addEventListener("resize", onWindowResize, false);
 
     animate();
     return () => mountRef.current.removeChild(renderer.domElement);
@@ -59,3 +70,7 @@ function App() {
 }
 
 export default App;
+
+// tell react that reference we created (useRef(null)) -> should reference our <div> element by adding ref={mountRef} as an attribute
+
+// replace document.body w/ mountRef.current to mount the scene to our referenced <div> element
