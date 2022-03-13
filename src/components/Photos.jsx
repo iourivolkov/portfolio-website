@@ -36,14 +36,20 @@ const Container = styled.div`
   color: black;
 `;
 
+const PhotoGrid = styled.div`
+  background-color: white;
+  color: black;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+`;
+
 const Photos = () => {
   return (
-    <div>
+    <PhotoGrid>
       <h1 className="photos-title">PHOTOS</h1>
-      <a href="https://www.instagram.com/ayureeee.sol/">
-        <PhotoButton>Browse more photos</PhotoButton>
-      </a>
-    </div>
+      <a href="https://www.instagram.com/ayureeee.sol/"></a>
+    </PhotoGrid>
   );
 };
 

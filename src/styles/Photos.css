@@ -5,9 +5,10 @@
 }
 
 .photos-title {
-  color: rgb(242, 242, 242);
+  color: black;
   margin-top: 60px;
   font-size: 14px;
+  background-color: transparent;
 }
 
 .image {
@@ -15,11 +16,4 @@
   height: 500px;
   margin-right: 10px;
   margin-left: 10px;
-}
-
-.photo-collage {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  margin-top: 40px;
 }
