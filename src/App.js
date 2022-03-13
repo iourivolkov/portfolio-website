@@ -26,11 +26,16 @@ function App() {
     // scene is appended directly to the document body
     mountRef.current.appendChild(renderer.domElement);
 
-    const geometry = new THREE.BoxGeometry(3, 3, 3);
-    const material = new THREE.MeshBasicMaterial({ color: 0x000fff });
-    const cube = new THREE.Mesh(geometry, material);
+    // const geometry = new THREE.BoxGeometry(3, 3, 3);
+    // const material = new THREE.MeshBasicMaterial({ color: 0x000fff });
+    // const cube = new THREE.Mesh(geometry, material);
 
-    scene.add(cube);
+    // scene.add(cube);
+
+    const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
+    const material = new THREE.MeshBasicMaterial({ color: 0xffff00 });
+    const torus = new THREE.Mesh(geometry, material);
+    scene.add(torus);
 
     camera.position.z = 5;
 
@@ -39,8 +44,8 @@ function App() {
 
     const animate = function () {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.01;
-      cube.rotation.y += 0.01;
+      torus.rotation.x += 0.01;
+      torus.rotation.y += 0.01;
       renderer.render(scene, camera);
     };
 
