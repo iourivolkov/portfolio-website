@@ -13,8 +13,6 @@ const Navigation = () => {
           <li className="about">ABOUT</li>
 
           <li className="portfolio">WORK</li>
-
-          <li className="photo">PHOTO</li>
         </div>
 
         <li className="contact">CONTACT ME</li>

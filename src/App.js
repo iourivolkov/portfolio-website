@@ -8,9 +8,9 @@ import About from "./components/About";
 
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
-import { CubeReflectionMapping } from "three";
 
 function App() {
+  const mountRef = useRef(null);
   useEffect(() => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
@@ -24,7 +24,7 @@ function App() {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
     // scene is appended directly to the document body
-    document.body.appendChild(renderer.domElement);
+    mountRef.current.appendChild(renderer.domElement);
 
     const geometry = new THREE.BoxGeometry(1, 1, 1);
     const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
@@ -41,14 +41,18 @@ function App() {
     };
 
     animate();
+    return () => mountRef.current.removeChild(renderer.domElement);
   }, []);
   return (
     <div className="App">
       <Navigation />
-      <LandingPage />
+      <div ref={mountRef}>
+        <LandingPage />
+      </div>
+
       <About />
       <Projects />
-      <Photos />
+      {/* <Photos /> */}
       <Footer />
     </div>
   );
