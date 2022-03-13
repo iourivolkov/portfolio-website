@@ -11,10 +11,12 @@ const ContactBtn = styled.button`
   background-color: transparent;
   font-family: "Poppins", sans-serif;
   cursor: pointer;
+  font-weight: bold;
   &:hover {
     background-color: rgb(210, 50, 22);
     color: white;
     border: none;
+    font-weight: bold;
   }
 `;
 

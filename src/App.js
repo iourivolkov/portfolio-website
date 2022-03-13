@@ -27,10 +27,11 @@ function App() {
     mountRef.current.appendChild(renderer.domElement);
 
     const geometry = new THREE.BoxGeometry(3, 3, 3);
-    const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+    const material = new THREE.MeshBasicMaterial({ color: 0x000fff });
     const cube = new THREE.Mesh(geometry, material);
 
     scene.add(cube);
+
     camera.position.z = 5;
 
     const white = new THREE.Color(0xffffff);
