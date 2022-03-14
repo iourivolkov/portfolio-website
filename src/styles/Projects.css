@@ -16,7 +16,7 @@
   cursor: pointer;
   /* text-shadow: 5px 5px rgb(52, 136, 181); */
   background-color: rgb(247, 106, 106);
-  color: white;
+  color: rgb(240, 240, 240);
 }
 
 h1 {
@@ -28,7 +28,7 @@ h1 {
   font-size: 14px;
   color: black;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
 
 a {

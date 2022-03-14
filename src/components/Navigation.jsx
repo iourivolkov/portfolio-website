@@ -13,7 +13,7 @@ const ContactBtn = styled.button`
   cursor: pointer;
   font-weight: bold;
   &:hover {
-    background-color: rgb(210, 50, 22);
+    background-color: teal;
     color: white;
     border: none;
     font-weight: bold;
