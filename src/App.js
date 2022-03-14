@@ -32,15 +32,25 @@ function App() {
 
     // scene.add(cube);
 
-    const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
+    // const geometry = new THREE.TorusGeometry(10, 3, 16, 100);
+    // const material = new THREE.MeshStandardMaterial({ color: 0xffff00 });
+    // const torus = new THREE.Mesh(geometry, material);
+    // scene.add(torus);
+
+    const geometry = new THREE.BoxGeometry(4, 4, 4);
     const material = new THREE.MeshStandardMaterial({ color: 0xffff00 });
-    const torus = new THREE.Mesh(geometry, material);
-    scene.add(torus);
+    const cube = new THREE.Mesh(geometry, material);
+    scene.add(cube);
 
     const directionalLight = new THREE.DirectionalLight(0xffffff);
     directionalLight.position.y = 0;
     directionalLight.position.z = 1;
     scene.add(directionalLight);
+
+    const directional_Light = new THREE.DirectionalLight(0xffffff);
+    directional_Light.position.y = 0;
+    directional_Light.position.z = 1;
+    scene.add(directional_Light);
 
     camera.position.z = 5;
 
@@ -49,8 +59,8 @@ function App() {
 
     const animate = function () {
       requestAnimationFrame(animate);
-      torus.rotation.x += 0.01;
-      torus.rotation.y += 0.01;
+      cube.rotation.x += 0.01;
+      cube.rotation.y += 0.01;
       renderer.render(scene, camera);
     };
 
