@@ -17,6 +17,7 @@ li {
   cursor: pointer;
   font-size: 14px;
   color: black;
+  margin-bottom: 50px;
 }
 
 .navbar:visited {

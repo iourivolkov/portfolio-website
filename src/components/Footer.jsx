@@ -6,7 +6,7 @@ import { SocialIcon } from "react-social-icons";
 
 const Footer = () => {
   return (
-    <div className="container">
+    <div className="footer-container">
       <section className="footer">
         <section className="footer-contact-info-left">
           <p>

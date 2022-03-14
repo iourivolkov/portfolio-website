@@ -33,7 +33,9 @@ const Navigation = () => {
 
           <li className="portfolio">WORK</li>
         </div>
-        <ContactBtn>CONTACT ME</ContactBtn>
+        <a href="mailto:volk.iouri@gmail.com">
+          <ContactBtn>CONTACT ME</ContactBtn>
+        </a>
         {/* <li className="contact">CONTACT ME</li> */}
       </ul>
     </nav>
