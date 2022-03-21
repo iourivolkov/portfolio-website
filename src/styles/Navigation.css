@@ -11,6 +11,7 @@ li {
 .navbar {
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-around;
   list-style-type: none;
   margin-top: 50px;
@@ -75,4 +76,10 @@ li {
   text-decoration-style: wavy;
   text-decoration-color: rgb(238, 58, 26);
   margin-top: 5px;
+}
+
+@media screen and (max-width: 1017px) {
+  .navbar {
+    font-size: 12px;
+  }
 }

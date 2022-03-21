@@ -18,6 +18,9 @@ const ContactBtn = styled.button`
     border: none;
     font-weight: bold;
   }
+  @media screen and (max-width: 1017px) {
+    font-size: 12px;
+  }
 `;
 
 const Navigation = () => {

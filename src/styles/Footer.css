@@ -26,3 +26,12 @@
 .github {
   margin-right: 20px;
 }
+
+@media screen and (max-width: 1017px) {
+  .footer-social-icons-right {
+    margin-left: 200px;
+  }
+  .footer {
+    font-size: 14px;
+  }
+}

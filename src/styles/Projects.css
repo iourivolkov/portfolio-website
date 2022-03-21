@@ -34,3 +34,9 @@ h1 {
 a {
   text-decoration: none;
 }
+
+@media screen and (max-width: 1017px) {
+  .past-project-links {
+    font-size: 65px;
+  }
+}
