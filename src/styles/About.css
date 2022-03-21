@@ -31,4 +31,16 @@ u {
   background-color: transparent;
 }
 
+@media screen and (max-width: 1015px) {
+  .about-desc {
+    font-size: 24px;
+  }
+  .about-card {
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+}
+
 /* #232568 */
