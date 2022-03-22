@@ -14,9 +14,9 @@
 
 .past-project-links:hover {
   cursor: pointer;
-  /* text-shadow: 5px 5px rgb(52, 136, 181); */
-  background-color: rgb(247, 106, 106);
-  color: rgb(240, 240, 240);
+  /* text-shadow: 5px 5px #7b1fa2; */
+  /* background-color: rgb(247, 106, 106); */
+  color: #fded59;
 }
 
 h1 {

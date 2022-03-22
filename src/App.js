@@ -82,10 +82,9 @@ function App() {
       <div ref={mountRef}>
         <LandingPage />
       </div>
-
       <About />
       <Projects />
-      {/* <Photos /> */}
+      <Photos />
       <Footer />
     </div>
   );

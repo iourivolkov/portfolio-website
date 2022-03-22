@@ -43,39 +43,43 @@ li {
 }
 
 .about {
-  padding-right: 25px;
+  margin-right: 35px;
 }
 
 .portfolio {
-  padding-right: 25px;
+  margin-right: 35px;
 }
 
 .about:hover {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
   text-decoration-color: rgb(238, 58, 26);
-  margin-top: 5px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .contact:hover {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
   text-decoration-color: rgb(238, 58, 26);
-  margin-top: 5px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .photo:hover {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
   text-decoration-color: rgb(238, 58, 26);
-  margin-top: 5px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 .portfolio:hover {
-  text-decoration-line: underline;
-  text-decoration-style: wavy;
+  /* text-decoration-line: underline; */
+  /* text-decoration-style: wavy; */
   text-decoration-color: rgb(238, 58, 26);
-  margin-top: 5px;
+  margin-top: 10px;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 1017px) {
