@@ -1,7 +1,8 @@
 import "../styles/Navigation.css";
-import { Link } from "react-router-dom";
 
 import styled from "styled-components";
+
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const ContactBtn = styled.button`
   border: solid black 2px;
@@ -34,9 +35,27 @@ const Navigation = () => {
         </li>
 
         <div className="middle">
-          <li className="about">ABOUT</li>
+          <Link
+            activeClass="active"
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <li className="about">ABOUT</li>
+          </Link>
 
-          <li className="portfolio">WORK</li>
+          <Link
+            activeClass="active"
+            to="projects"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
+            <li className="portfolio">WORK</li>
+          </Link>
           {/* <li className="photo">PHOTO</li> */}
         </div>
         <a href="mailto:volk.iouri@gmail.com">
