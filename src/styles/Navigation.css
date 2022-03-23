@@ -82,8 +82,21 @@ li {
   font-weight: bold;
 }
 
+/* Media Queries */
+
 @media screen and (max-width: 1017px) {
   .navbar {
     font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .navbar {
+    font-size: 10px;
+    margin: 50px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-around;
   }
 }

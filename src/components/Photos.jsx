@@ -48,7 +48,6 @@ const Photos = () => {
   return (
     <PhotoGrid>
       <h1 className="photos-title">PHOTOS</h1>
-      <a href="https://www.instagram.com/ayureeee.sol/"></a>
     </PhotoGrid>
   );
 };

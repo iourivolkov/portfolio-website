@@ -18,8 +18,8 @@ const ContactBtn = styled.button`
     border: none;
     font-weight: bold;
   }
-  @media screen and (max-width: 1017px) {
-    font-size: 12px;
+  @media screen and (max-width: 390px) {
+    font-size: 10px;
     border: none;
     font-weight: 700;
   }
@@ -37,7 +37,7 @@ const Navigation = () => {
           <li className="about">ABOUT</li>
 
           <li className="portfolio">WORK</li>
-          <li className="photo">PHOTO</li>
+          {/* <li className="photo">PHOTO</li> */}
         </div>
         <a href="mailto:volk.iouri@gmail.com">
           <ContactBtn>CONTACT ME</ContactBtn>
