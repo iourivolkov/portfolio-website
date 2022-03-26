@@ -39,7 +39,7 @@ function App() {
     // const torus = new THREE.Mesh(geometry, material);
     // scene.add(torus);
 
-    const geometry = new THREE.BoxGeometry(2, 2, 2);
+    const geometry = new THREE.BoxGeometry(4, 4, 4);
     const material = new THREE.MeshStandardMaterial({ color: 0xffff00 });
     const cube = new THREE.Mesh(geometry, material);
     scene.add(cube);
@@ -60,10 +60,10 @@ function App() {
     scene.background = white;
 
     //Load background texture
-    const loader = new THREE.TextureLoader();
-    loader.load(Toronto, function (texture) {
-      scene.background = texture;
-    });
+    // const loader = new THREE.TextureLoader();
+    // loader.load(Toronto, function (texture) {
+    //   scene.background = texture;
+    // });
 
     const animate = function () {
       requestAnimationFrame(animate);

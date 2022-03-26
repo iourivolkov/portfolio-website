@@ -5,7 +5,8 @@ import styled from "styled-components";
 import { Link, animateScroll as scroll } from "react-scroll";
 
 const ContactBtn = styled.button`
-  border: solid black 2px;
+  /* border: solid black 2px; */
+  border: none;
   width: 120px;
   height: 30px;
   text-align: center;
@@ -21,8 +22,8 @@ const ContactBtn = styled.button`
   }
   @media screen and (max-width: 390px) {
     font-size: 10px;
-    border: none;
     font-weight: 700;
+    width: 90px;
   }
 `;
 
