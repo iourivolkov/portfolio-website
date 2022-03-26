@@ -44,7 +44,7 @@ const Navigation = () => {
             offset={-70}
             duration={500}
           >
-            <li className="about">ABOUT</li>
+            {/* <li className="about">ABOUT</li> */}
           </Link>
 
           <Link
@@ -55,7 +55,7 @@ const Navigation = () => {
             offset={-70}
             duration={500}
           >
-            <li className="portfolio">WORK</li>
+            {/* <li className="portfolio">WORK</li> */}
           </Link>
           {/* <li className="photo">PHOTO</li> */}
         </div>
