@@ -10,7 +10,7 @@ const Footer = () => {
       <section className="footer">
         <section className="footer-contact-info-left">
           <p>
-            IOURI <b>VOLKOV</b> - Toronto, ON. All rights reserved.
+            IOURI <b>VOLKOV</b> - All rights reserved.
           </p>
         </section>
         <section className="footer-social-icons-right">
