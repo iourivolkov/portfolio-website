@@ -10,6 +10,7 @@ import Toronto from "./assets/toronto.png";
 
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 
 function App() {
   const mountRef = useRef(null);
@@ -92,6 +93,8 @@ function App() {
     // loader.load(Toronto, function (texture) {
     //   scene.background = texture;
     // });
+
+    const orbit = new OrbitControls(camera, renderer.domElement);
 
     const animate = function () {
       requestAnimationFrame(animate);
