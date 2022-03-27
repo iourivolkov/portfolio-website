@@ -30,7 +30,8 @@
   text-align: center;
   z-index: 100;
   display: block;
-  margin-top: 50%;
+  margin-top: 450px;
+  /* margin-top: 50%; */
   position: absolute;
   align-self: center;
   font-size: 7rem;
