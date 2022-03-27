@@ -20,12 +20,12 @@ const Footer = () => {
             url="https://github.com/iourivolkov"
             style={{ height: 35, width: 35 }}
           />
-          <SocialIcon
+          {/* <SocialIcon
             className="instagram"
             network="instagram"
             url="https://www.instagram.com/ayureeee.sol/"
             style={{ height: 35, width: 35 }}
-          />
+          /> */}
         </section>
       </section>
     </div>
