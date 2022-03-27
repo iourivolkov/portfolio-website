@@ -3,7 +3,7 @@ import Navigation from "../src/components/Navigation";
 import LandingPage from "../src/components/LandingPage";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
-import Photos from "./components/Photos";
+// import Photos from "./components/Photos";
 import About from "./components/About";
 import styled from "styled-components";
 
@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     const scene = new THREE.Scene();
     const camera = new THREE.PerspectiveCamera(
-      30,
+      15,
       window.innerWidth / window.innerHeight,
       0.1,
       1000
@@ -191,10 +191,15 @@ function App() {
     return () => mountRef.current.removeChild(renderer.domElement);
   }, []);
 
+  const StyledLandingHeading = styled.div`
+    margin-top: 50%;
+  `;
+
   return (
     <div className="App">
       <Navigation />
       <div ref={mountRef}>
+        <span id="info">GUMBALL</span>
         <LandingPage />
       </div>
       <About id="about" />

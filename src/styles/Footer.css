@@ -8,7 +8,7 @@
   flex-direction: row;
   font-weight: 300;
   margin-bottom: 50px;
-  background-color: rgb(85, 244, 255);
+  background-color: rgb(255, 255, 255);
   height: 150px;
   margin-bottom: 0px;
   overflow-y: hidden;
@@ -44,9 +44,11 @@
 @media screen and (max-width: 548px) {
   .footer {
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
+    align-items: center;
+
     justify-content: center;
-    background-color: rgb(250, 246, 236);
+    background-color: rgb(255, 255, 255);
     height: 150px;
     margin-bottom: 0px;
   }

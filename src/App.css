@@ -1,3 +1,23 @@
 .App {
   text-align: center;
 }
+
+#info {
+  position: absolute;
+  top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  margin-top: 50%;
+  font-size: 6rem;
+  color: rgb(245, 82, 46);
+  opacity: 80%;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+}
+
+#info:hover {
+  cursor: pointer;
+}
