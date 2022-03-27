@@ -139,7 +139,7 @@ function App() {
     planeBody.quaternion.setFromEuler(-Math.PI / 2, 0, 0);
     world.addBody(planeBody);
 
-    //Load background texture
+    // Load background texture
     // const loader = new THREE.TextureLoader();
     // loader.load(Toronto, function (texture) {
     //   scene.background = texture;
@@ -194,7 +194,9 @@ function App() {
     <div className="App">
       <Navigation />
       <div ref={mountRef}>
-        <span id="info">GUMBALL</span>
+        <span className="gumball" id="info">
+          GUMBALL
+        </span>
         <LandingPage />
       </div>
       <About id="about" />

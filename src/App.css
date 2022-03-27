@@ -2,8 +2,29 @@
   text-align: center;
 }
 
-#info {
-  /* position: absolute; */
+/* #info { */
+/* position: absolute; */
+/* top: 10px;
+  width: 100%;
+  text-align: center;
+  z-index: 100;
+  display: block;
+  margin-top: 50%;
+  position: absolute;
+  align-self: center;
+  font-size: 7rem;
+  color: rgb(223, 25, 101);
+  opacity: 75%;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  background-color: transparent;
+} */
+
+/* #info:hover {
+  cursor: pointer;
+} */
+
+.gumball {
   top: 10px;
   width: 100%;
   text-align: center;
@@ -20,6 +41,6 @@
   background-color: transparent;
 }
 
-#info:hover {
+.gumball:hover {
   cursor: pointer;
 }
