@@ -8,11 +8,6 @@ const Footer = () => {
   return (
     <div className="footer-container">
       <section className="footer">
-        <section className="footer-contact-info-left">
-          <p>
-            IOURI <b>VOLKOV</b> - All rights reserved.
-          </p>
-        </section>
         <section className="footer-social-icons-right">
           <SocialIcon
             className="linkedIn"

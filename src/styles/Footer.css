@@ -1,17 +1,16 @@
 .footer {
   margin-top: 100px;
   font-family: "Poppins", sans-serif;
-  color: black;
+  color: white;
   align-items: center;
   display: flex;
   justify-content: space-around;
   flex-direction: row;
   font-weight: 300;
   margin-bottom: 50px;
-  background-color: rgb(250, 246, 236);
+  background-color: rgb(85, 244, 255);
   height: 150px;
   margin-bottom: 0px;
-  color: black;
   overflow-y: hidden;
 }
 

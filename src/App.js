@@ -5,6 +5,7 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Photos from "./components/Photos";
 import About from "./components/About";
+import styled from "styled-components";
 
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
