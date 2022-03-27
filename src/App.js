@@ -26,10 +26,6 @@ function App() {
     const ambientLight = new THREE.AmbientLight(0x333333);
     scene.add(ambientLight);
 
-    // const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-    // scene.add(directionalLight);
-    // directionalLight.position.set(0,50,0);
-    // directionalLight.castShadow = true;
     const renderer = new THREE.WebGLRenderer({ antialias: true });
 
     renderer.setSize(window.innerWidth, window.innerHeight);
@@ -61,12 +57,7 @@ function App() {
     scene.add(directionalLight);
     directionalLight.castShadow = true;
 
-    // const directional_Light = new THREE.DirectionalLight(0xffffff);
-    // directional_Light.position.y = 0;
-    // directional_Light.position.z = 1;
-    // scene.add(directional_Light);
-
-    camera.position.z = 5;
+    camera.position.z = 4;
 
     const white = new THREE.Color(0xffffff);
     scene.background = white;
@@ -157,6 +148,10 @@ function App() {
     // Add Orbit Controls to canvas (imported at top of doc)
     // const orbit = new OrbitControls(camera, renderer.domElement);
     // bodies.push(sphereBody);
+
+    // const text = "GUMBALL";
+    // const gumball = new THREE.TextGeometry(text, {});
+    // scene.add(gumball);
 
     const timestep = 1 / 60;
 
