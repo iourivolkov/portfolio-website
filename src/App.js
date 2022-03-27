@@ -39,10 +39,10 @@ function App() {
     // const torus = new THREE.Mesh(geometry, material);
     // scene.add(torus);
 
-    const geometry = new THREE.BoxGeometry(4, 4, 4);
-    const material = new THREE.MeshStandardMaterial({ color: 0xffff00 });
-    const cube = new THREE.Mesh(geometry, material);
-    scene.add(cube);
+    // const geometry = new THREE.BoxGeometry(4, 4, 4);
+    // const material = new THREE.MeshStandardMaterial({ color: 0xffff00 });
+    // const cube = new THREE.Mesh(geometry, material);
+    // scene.add(cube);
 
     const directionalLight = new THREE.DirectionalLight(0xffffff);
     directionalLight.position.y = 0;
@@ -59,6 +59,34 @@ function App() {
     const white = new THREE.Color(0xffffff);
     scene.background = white;
 
+    // Create Objects on Mouse Click
+    const mouse = new THREE.Vector2();
+    const intersectionPoint = new THREE.Vector3();
+    const planeNormal = new THREE.Vector3();
+    const plane = new THREE.Plane();
+    const raycaster = new THREE.Raycaster();
+
+    window.addEventListener("mousemove", (e) => {
+      mouse.x = (e.clientX / window.innerWidth) * 2 - 1;
+      mouse.y = -(e.clientY / window.innerHeight) * 2 + 1;
+      planeNormal.copy(camera.position).normalize();
+      plane.setFromNormalAndCoplanarPoint(planeNormal, scene.position);
+      raycaster.setFromCamera(mouse, camera);
+      raycaster.ray.intersectPlane(plane, intersectionPoint);
+    });
+
+    window.addEventListener("click", (e) => {
+      const sphereGeo = new THREE.SphereGeometry(0.125, 30, 30);
+      const sphereMat = new THREE.MeshStandardMaterial({
+        color: 0xffea00,
+        metalness: 0,
+        roughness: 0,
+      });
+      const sphereMesh = new THREE.Mesh(sphereGeo, sphereMat);
+      scene.add(sphereMesh);
+      sphereMesh.position.copy(intersectionPoint);
+    });
+
     //Load background texture
     // const loader = new THREE.TextureLoader();
     // loader.load(Toronto, function (texture) {
@@ -67,9 +95,9 @@ function App() {
 
     const animate = function () {
       requestAnimationFrame(animate);
-      cube.rotation.x += 0.01;
+      // cube.rotation.x += 0.01;
       // cube.rotation.y += 0.01;
-      cube.rotation.z += 0.01;
+      // cube.rotation.z += 0.01;
       renderer.render(scene, camera);
     };
 
